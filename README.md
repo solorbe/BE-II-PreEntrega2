@@ -71,7 +71,7 @@ Con el servidor corriendo (por defecto en `http://localhost:3000`, salvo que hay
 | GET | `http://localhost:3000/api/sessions` | [] |
 | GET | `http://localhost:3000/api/events` | [] |
 | POST | `http://localhost:3000/api/events` | {"status": "success", "payload": {"title": "Readme", "description": "Descripcion para README", "date": "2026-11-15T00:00:00.000Z","location": "Rosario", "capacity": 1000, "qvendidas": 0, "status": "draft", "_id": "6ae8ee0ae9e2b1118fe3f80a", "createdAt": "2026-11-02T20:09:46.474Z", "updatedAt": "2026-11-02T20:09:46.474Z", "__v": 0}} |
-| GET | `http://localhost:3000/api/sessions/register` | {"status": "succes", "payload": {"id": "6ae7457d764cdb3a1aefe21f", "first_name": "Sol", "last_name": "Orbe","email": "`sol@mail.com`","role": "user"}} |
+| POST | `http://localhost:3000/api/sessions/register` | {"status": "succes", "payload": {"id": "6ae7457d764cdb3a1aefe21f", "first_name": "Sol", "last_name": "Orbe","email": "`sol@mail.com`","role": "user"}} |
 
 ## Ejemplos de casos de prueba en
 
